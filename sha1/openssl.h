@@ -9,6 +9,7 @@ struct openssl_SHA1_CTX {
 
 typedef struct openssl_SHA1_CTX openssl_SHA1_CTX;
 
+// OLA WAS HERE
 static inline void openssl_SHA1_Init(struct openssl_SHA1_CTX *ctx)
 {
 	const EVP_MD *type = EVP_sha1();
